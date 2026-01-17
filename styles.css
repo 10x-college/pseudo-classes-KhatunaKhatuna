@@ -101,13 +101,13 @@ body {
   padding: 19px 30px;
   background-color: #b1ced4;
   border-radius: 10px;
+  transition: transform 0.2s ease;
 }
 .header-btn:hover {
   background-color: #96b0b5;
 }
 .header-btn:active {
-  position: relative;
-  top: 3px;
+  transform: translateY(3px);
 }
 .header-btn-content {
   white-space: nowrap;
@@ -147,6 +147,7 @@ main {
   overflow: hidden;
   background-color: #d8e6e9;
   transition: transform 0.2s ease;
+  box-shadow: 1px 1px 10px #00000087;
 }
 .food:hover {
   transform: translateY(-4px);
